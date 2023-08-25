@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // التحقق من صحة البيانات
     if (!empty($id)) {
         // قم بتحديد معلومات اتصال قاعدة البيانات هنا
-        $servername = "localhost";
-        $username = "id21164872_irash";
-        $password = "ilovesos5Q@";
-        $dbname = "id21164872_educationalservices";
+        $servername = "sql10.freemysqlhosting.net";
+        $username = "sql10642165";
+        $password = "adkMZkbPrw";
+        $dbname = "sql10642165";
 
         // إنشاء اتصال بقاعدة البيانات
         $conn = new mysqli($servername, $username, $password, $dbname);
